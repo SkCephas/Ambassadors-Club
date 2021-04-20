@@ -1,2 +1,3 @@
 # Ambassadors-Club
-A java app to manage a database
+A java app to manage a databases
+

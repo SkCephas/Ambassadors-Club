@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Table">
+  <grid id="27dc6" binding="tablePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="9538a" binding="searchPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <preferredSize width="0" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e4f2f" class="javax.swing.JLabel" binding="enterNameLabel">
+            <constraints/>
+            <properties>
+              <text value="Enter last name"/>
+            </properties>
+          </component>
+          <component id="f3508" class="javax.swing.JTextField" binding="searchTextField">
+            <constraints/>
+            <properties>
+              <preferredSize width="200" height="30"/>
+            </properties>
+          </component>
+          <component id="fe43d" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Search"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e0988" binding="updateDeletePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="0" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d61b2" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Update"/>
+            </properties>
+          </component>
+          <component id="7094b" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Delete"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="792f6" binding="tableScrollPanel">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1f4b2" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

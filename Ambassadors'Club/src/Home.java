@@ -6,7 +6,7 @@ public class Home {
     private JPanel SouthPanel;
     private JPanel EastPanel;
     private JPanel WestPanel;
-    private JLabel JavaAmbassadors;
+    private JLabel JavaAmbassadorsLabel;
     private JTextField PasswordTextField;
     private JButton logInButton;
     private JButton createAccountButton;
